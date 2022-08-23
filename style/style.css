@@ -1,0 +1,135 @@
+html body {
+  background: rgb(245, 245, 245);
+  margin: 0 auto;
+  padding: 0 auto;
+}
+
+.head {
+  width: 100%;
+  padding: 10px 10px;
+  border-bottom: 2px solid #fff;
+  min-height: 60px;
+}
+
+.search-block {
+  position: relative;
+  width: 50%;
+  min-height: 45px;
+  padding: left 20px;
+  margin-top: 10px;
+  padding-bottom: 10px;
+  overflow: hidden;
+}
+
+.search-block button {
+  position: absolute;
+  margin-left: -60px;
+  margin-top: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+
+.search-block input {
+  width: 50%;
+  min-height: 40px;
+  border-radius: 20px;
+  border: none;
+  font-size: 16px;
+  text-align: start;
+  padding-left: 30px;
+  margin-left: 20px;
+
+}
+
+.search-block input:focus {
+  outline: none;
+}
+
+
+
+.cart-content {
+  margin: 20px 50px 0 0;
+}
+
+.cart-content img {
+  float: right;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+
+
+.display {
+  width: 200px;
+  height: 100%;
+  margin: 10px;
+  background: rgb(255, 255, 255);
+  overflow: hidden;
+  border-radius: 15px 15px 0px 0px;
+  border: 1px solid rgb(153, 153, 153);
+  display: block
+}
+
+
+
+.cardProduct {
+  height: 100%;
+  text-align: center;
+  font-size: 16px;
+  margin: 0 auto;
+}
+
+
+
+.cardProduct img {
+  margin-top: -15px;
+  height: 240px;
+
+}
+
+.cardProduct>p {
+  margin: 0;
+  margin-top: -25px;
+  display: block;
+  min-height: 40px;
+  padding-bottom: 5px;
+  color: #111;
+  font-size: 16px;
+}
+
+.cardProduct>span {
+  display: block;
+  padding-bottom: 10px;
+  color: #111;
+  font-size: 16px;
+}
+
+
+
+
+.add-button {
+  width: 100%;
+  background: #0071E3;
+  text-align: center;
+  font-size: 18px;
+  color: aliceblue;
+  padding: 5px;
+  cursor: pointer;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.add-button:hover {
+  font-size: 19px;
+
+  background: #005ACB;
+
+}
